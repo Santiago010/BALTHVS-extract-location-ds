@@ -1,0 +1,2 @@
+ollama run deepseek-r1
+ngrok http 11434 
