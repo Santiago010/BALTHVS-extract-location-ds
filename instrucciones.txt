@@ -1,2 +1,14 @@
+COMANDO PARA CORRER deepseek-r1 EN LOCAL 
 ollama run deepseek-r1
+
+COMANDO PARA SUBIR ESTE deepseek-r1 EN UN PUERTO O URL DE NUESTRO PC
 ngrok http 11434 
+
+
+ACTIVAR EL ENTORNO VIRTUAL DE PYTHON
+source balthvs_ia/bin/activate
+
+
+COMANDO PARA CORRER EL SCRIPT
+python3 ty.py
+
