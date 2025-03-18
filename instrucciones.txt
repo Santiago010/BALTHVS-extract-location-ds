@@ -1,3 +1,5 @@
+------------------CON OLLAMA Y deepseek-----------------
+
 COMANDO PARA CORRER deepseek-r1 EN LOCAL 
 ollama run deepseek-r1
 
@@ -10,5 +12,13 @@ source balthvs_ia/bin/activate
 
 
 COMANDO PARA CORRER EL SCRIPT
-python3 ty.py
+python3 with-deep-seek.py
+
+
+-----------------------CON SPACY -----------------------------
+
+ACTIVAR EL ENTORNO VIRTUAL DE PYTHON
+source my_env/bin/activate
+
+python with-spacy.py
 
