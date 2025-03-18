@@ -1,0 +1,5 @@
+{
+    "model": "deepseek-r1",
+ "prompt": "Extract any mentioned location from the following text. The location may be a city, country, or U.S. state.\n\nReturn ONLY a JSON object in the exact format below:\n\n{\n    \"participant\": \"Elle\",\n    \"location\": \"<EXTRACTED LOCATION>\"\n}\n\nIf no location is mentioned, return:\n\n{\n    \"participant\": \"Elle\",\n    \"location\": \"No location specified\"\n}\n\nStrictly return only the JSON. No extra text.\n\nText:\n\"hey yalll! We met in Charleston when you played at my friend’s wedding. I’m currently in Costa Rica. Gonna see if I can make it down!! Let's shoot for Denver!\"",
+    "stream": false
+}

@@ -1,0 +1,22 @@
+"
+    Extract any mentioned location from the following text. The location may be a city, country, or U.S. state.
+
+    Return ONLY a JSON object in the exact format below:
+
+    {{
+        "participant": "Elle",
+        "location": "<EXTRACTED LOCATION>"
+    }}
+
+    If no location is mentioned, return:
+
+    {{
+        "participant": "Elle",
+        "location": "No location specified"
+    }}
+
+    Do NOT include any extra text, explanations, or token lists. Return ONLY the JSON.
+
+    Text:
+    "hey yalll! We met in Charleston when you played at my friend’s wedding. I’m currently in Costa Rica. Gonna see if I can make it down!! Let's shoot for Denver!"
+    "
